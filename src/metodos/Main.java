@@ -4,15 +4,15 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		Calculo operação = new Calculo();
+		Calculo operacao = new Calculo();
 		
 		
-		int soma = operação.somar(10, 20);
-		int subtração = operação.subtrair(soma, 20);
-		int multiplicação = operação.multiplicar(subtração, 20);
-		int divisão = operação.dividir(multiplicação, 20);
+		int soma = operacao.somar(10, 20);
+		int subtracao = operacao.subtrair(soma, 20);
+		int multiplicacao = operacao.multiplicar(subtracao, 20);
+		int divisao = operacao.dividir(multiplicacao, 20);
 		
-		System.out.println(divisão);
+		System.out.println(divisao);
 
 		
 	}
